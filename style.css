@@ -1,6 +1,5 @@
 body{
 
-
     background-image:url("bg.gif");
     background-size:cover; 
     background-repeat: no-repeat;
@@ -8,7 +7,7 @@ body{
     margin: 0;
     font-family: 'Arial', sans-serif;
     align-items: center;
-    
+    /*main  */
     
 }
 
@@ -57,6 +56,44 @@ body {
     padding-top: 60px;
 }
 
+.container-login{
+    margin-left: 2%;
+    margin-top: 2%;
+    display: grid;
+    width: 20%;
+    height: 60%;
+
+    background-color: rgba(66, 64, 64, 0.9);
+   text-align: center;
+   justify-content: center;
+    border: 4px solid #333; 
+    border-radius: 20px;
+
+
+}
+.transparent-textbox {
+    background-color: rgba(255, 255, 255, 0.1); /* White background with 50% opacity */
+    padding: 20px;
+    border: 1px solid #ccc; /* Add a border for better visibility */
+    width: 300px; /* Set a width for the textbox */
+    height: 30px;
+    /* margin: auto; Center the textbox */
+    text-align: center;
+}
+.transparent-textbox input[type="text"]::placeholder {
+    color: rgba(0, 0, 0, 0.8); /* Set the placeholder color with 40% opacity */
+}
+
+/* Other styles for text inside the textbox */
+.transparent-textbox input[type="text"] {
+    text-align: center;
+    width: 100%; /* Make the input fill the entire width of the textbox */
+            box-sizing: border-box; /* Include padding and border in the width */
+            outline: none; /* Remove default input focus outline */
+            color: rgba(0, 0, 0, 0.7); /* Black text with 70% opacity */
+            background: none; /* Make the background of the input transparent */
+            border: none; /* Remove the input border */
+}
 
 
 /* gallery css */
@@ -65,7 +102,9 @@ body {
     display: flex;
     justify-content: center;
     margin: 0;
-    
+    color: white;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
@@ -73,7 +112,7 @@ body {
     display: grid;
     width: 80%;
     height: auto;
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     align-items: center;
     justify-content: center;
     border: 4px solid #333; 
@@ -82,19 +121,26 @@ body {
 }
 
 .box {
-display: flex;
-text-align: center;
+    display: flex;
+    text-align: center;
 
 }
-.img{
- text-align: center ;
+.imgs{
+    display: grid;
+    text-align: center ;
+     justify-content: center;
+     margin-top: 2%;
+     margin-bottom:2% ;
+
 }
 
 .box .imgs img {
     
     width: 80%;
-    margin-top: 5%;
-    margin-bottom:5% ;
+   
+    border: 4px solid #c2bfbf; 
+    border-radius: 20px;
+    
 
 }
 
