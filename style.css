@@ -58,3 +58,30 @@ body {
 }
 
 
+
+/* gallery css */
+
+.gallery-box{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    
+
+}
+
+.collection{
+    width: 80%;
+    text-align: center;
+
+    color: #333333;
+}
+
+.box {
+display: flex;
+}
+.box .imgs img {
+    width: 50%;
+    margin: 2%;
+
+}
+
