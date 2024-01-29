@@ -50,50 +50,51 @@ body{
     background-color: #ddd;
     color: black;
 }
-
-/* Add some space to the content to prevent it from being overlapped by the fixed navbar */
 body {
     padding-top: 60px;
 }
 
 .container-login{
-    margin-left: 2%;
-    margin-top: 2%;
+    margin: auto;
+    margin-top:10% ;
     display: grid;
     width: 20%;
     height: 60%;
 
-    background-color: rgba(66, 64, 64, 0.9);
-   text-align: center;
-   justify-content: center;
+    background-color: rgba(66, 64, 64, 0.8);
+    text-align: center;
+    justify-content: center;
     border: 4px solid #333; 
     border-radius: 20px;
 
 
 }
 .transparent-textbox {
-    background-color: rgba(255, 255, 255, 0.1); /* White background with 50% opacity */
+    background-color: rgba(255, 255, 255, 0.1);
     padding: 20px;
-    border: 1px solid #ccc; /* Add a border for better visibility */
-    width: 300px; /* Set a width for the textbox */
+    border: 1px solid #ccc;
+    width: 300px;
     height: 30px;
-    /* margin: auto; Center the textbox */
     text-align: center;
-}
-.transparent-textbox input[type="text"]::placeholder {
-    color: rgba(0, 0, 0, 0.8); /* Set the placeholder color with 40% opacity */
 }
 
-/* Other styles for text inside the textbox */
+.transparent-textbox input[type="text"]::placeholder {
+    color: rgba(0, 0, 0, 0.8);
+}
+
 .transparent-textbox input[type="text"] {
     text-align: center;
-    width: 100%; /* Make the input fill the entire width of the textbox */
-            box-sizing: border-box; /* Include padding and border in the width */
-            outline: none; /* Remove default input focus outline */
-            color: rgba(0, 0, 0, 0.7); /* Black text with 70% opacity */
-            background: none; /* Make the background of the input transparent */
-            border: none; /* Remove the input border */
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    color: rgba(0, 0, 0, 0.7);
+    background: none;
+    border: none;
 }
+
+
+
+
 
 
 /* gallery css */
@@ -144,3 +145,51 @@ body {
 
 }
 
+
+
+/* profile css */
+
+
+.profile-container{
+width: 80%;
+height: 200%;
+background-color: rgba(0, 0, 0, 0.5);
+margin: auto !important;
+border-radius: 10px;
+text-align: center;
+border: 3px solid #333333;
+
+}
+
+.cover-photo{
+    width:auto; 
+    height: 500px; 
+    background-color: black; 
+    background-image: url('cover.webp');
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-bottom: 6px solid black;
+
+}
+.profile-container h1{
+    color:#ddd;
+    padding-top:1% ;
+    padding-left: 1%;
+    /* font-size:  */
+    text-align: center;    
+}
+
+.profile-container .container{
+    
+    width: 300px;
+    height: 300px;
+    overflow: hidden; 
+    
+    border-radius: 50%;
+    /* z-index: 1; */
+    background-color: pink;
+    background-image: url("meow meow.jpg");
+    background-size:cover;
+    margin-top: -50%;
+    border: 6px solid blue;
+}
