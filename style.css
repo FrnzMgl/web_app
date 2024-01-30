@@ -165,7 +165,7 @@ border: 3px solid #333333;
     width:auto; 
     height: 500px; 
     background-color: black; 
-    background-image: url('cover.webp');
+    background-image: url('cover.png');
     background-repeat: no-repeat;
     background-size:cover;
     border-bottom: 6px solid black;
@@ -176,7 +176,7 @@ border: 3px solid #333333;
     padding-top:1% ;
     padding-left: 1%;
     /* font-size:  */
-    text-align: center;    
+    /* text-align: center;     */
 }
 
 .profile-container .container{
@@ -193,3 +193,13 @@ border: 3px solid #333333;
     margin-top: -50%;
     border: 6px solid blue;
 }
+
+.social{
+display: flex;
+}
+.social img{
+    margin-left: 10px;
+padding-top: 28%;
+border: 1px;
+}
+
