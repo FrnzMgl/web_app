@@ -82,6 +82,15 @@ body {
     color: rgba(0, 0, 0, 0.8);
 }
 
+.transparent-textbox input[type="password"] {
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    color: rgba(0, 0, 0, 0.7);
+    background: none;
+    border: none;
+}
 .transparent-textbox input[type="text"] {
     text-align: center;
     width: 100%;
@@ -203,3 +212,11 @@ padding-top: 28%;
 border: 1px;
 }
 
+/* login */
+
+.login-container{
+
+    width: 200px;
+    height: 100px;
+    background-color: grey;
+}
